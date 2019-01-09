@@ -24,10 +24,10 @@ eureka:
       
 ---
 server: 
-  port: 7001
+  port: 7002
 
 spring: 
-  profiles: test  #开发环境
+  profiles: test  #测试环境
   application: 
     name: microservicecloud-config-eureka-client
 
